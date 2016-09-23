@@ -10,7 +10,7 @@ function clearAllPaths(window, cookieBase) {
   };
 }
 
-function clearAllCookies(window) {
+function deleteAllCookies(window) {
   var cookies = window.document.cookie.split("; ");
   for (var c = 0; c < cookies.length; c++) {
     var encodedCookieName = encodeURIComponent(cookies[c].split(";")[0].split("=")[0]);
@@ -25,4 +25,4 @@ function clearAllCookies(window) {
   }
 }
 
-module.exports = clearAllCookies;
+module.exports = deleteAllCookies;
