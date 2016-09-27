@@ -1,6 +1,6 @@
 {
   "name": "delete-all-cookies",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Removes all cookies affecting the current site/domain/path",
   "main": "index.js",
   "scripts": {
