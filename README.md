@@ -10,7 +10,11 @@ and so on, as well as cookies without explicit path and domain specification.
 Sample interactive usage:
 
     // in source:
-    window.clearCookies = require('delete-all-cookies')
+    window.clearCookies = require('delete-all-cookies')(window)
+    
+    // ES 6:
+    import deleteAllCookiesFactory from 'delete-all-cookies'
+    window.clearCookies = deleteAllCookiesFactory(window)
 
     // then, in console:
     clearCookies()
