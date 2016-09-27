@@ -1,4 +1,4 @@
-# clear-all-cookies
+# delete-all-cookies
 
 This library exposes a function to clear all cookies that affect
 the currently loaded web page.
