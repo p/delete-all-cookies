@@ -19,6 +19,14 @@ Sample interactive usage:
     // then, in console:
     clearCookies()
 
+Usage in browsers:
+
+    <script src="https://unpkg.com/delete-all-cookies/index.js"></script>
+    
+    <script>
+      deleteAllCookies(window)
+    </script>
+
 ## License
 
 Released under the MIT license.
