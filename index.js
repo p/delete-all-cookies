@@ -29,4 +29,6 @@ function deleteAllCookiesFactory(window) {
   return deleteAllCookies.bind(window, window);
 }
 
-module.exports = deleteAllCookiesFactory;
+if (module !== undefined) {
+  module.exports = deleteAllCookiesFactory;
+}
